@@ -7,7 +7,6 @@ import modalSlice from "../slices/modalSlice";
 
 export const store = configureStore({
   reducer: {
-   
     [authSlice.name]: authSlice.reducer,
     [columnsSlice.name]: columnsSlice.reducer,
     [modalSlice.name]:modalSlice.reducer
